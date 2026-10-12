@@ -16,11 +16,15 @@ AzListView, SuspensionView, IndexBar.
 * IndexBar支持本地图片。
 * 允许滚动到列表中的特定项目。
 
-## Pub
+## 使用此 fork
 ```yaml
 dependencies:
-  azlistview: #latest version
+  azlistview:
+    git:
+      url: https://github.com/koojj2809571/azlistview.git
+      ref: master
 ```
+此分支支持 Dart 3 与 `scrollable_positioned_list` 0.3.8；主应用无需再覆盖该依赖。
 
 ## Screenshots
 
@@ -31,7 +35,7 @@ dependencies:
 
 ## Changelog
 
-Please see the [Changelog](https://github.com/flutterchina/azlistview/blob/master/CHANGELOG.md) page to know what's recently changed.  
+请参阅本 fork 的 [变更日志](https://github.com/koojj2809571/azlistview/blob/master/CHANGELOG.md)。
 v1.1.0  
 itemBuilder不要包含Header，因为它是在内部自动合并的。fix [#38](https://github.com/flutterchina/azlistview/issues/38).
 

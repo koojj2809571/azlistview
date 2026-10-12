@@ -1,3 +1,6 @@
+## 2.0.1
+* 支持 Dart 3，升级 scrollable_positioned_list 至 0.3.8。
+
 ## 2.0.0 release
 * TODO: scrollable_positioned_list: ^0.2.3, Indexbar add haptic feedback.
 
